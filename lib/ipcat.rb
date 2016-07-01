@@ -26,7 +26,7 @@ class IPCat
       @ranges = new_ranges
     end
 
-    def load_csv!(path='https://raw.github.com/client9/ipcat/master/datacenters.csv')
+    def load_csv!(path='https://raw.githubusercontent.com/teespring/ipcat/teespring/datacenters.csv')
       reset_ranges!
 
       require 'open-uri'
